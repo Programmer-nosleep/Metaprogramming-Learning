@@ -1,8 +1,0 @@
-[
-{
-  "directory": "C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build",
-  "command": "\"C:/Program Files/LLVM/bin/clang++.exe\"   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++17 -o CMakeFiles/Project.dir/main.cpp.obj -c \"C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/main.cpp\"",
-  "file": "C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/main.cpp",
-  "output": "CMakeFiles/Project.dir/main.cpp.obj"
-}
-]
