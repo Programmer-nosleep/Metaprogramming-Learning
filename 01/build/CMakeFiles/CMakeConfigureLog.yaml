@@ -1,0 +1,329 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/LLVM/bin/clang.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is Clang, found in:
+        C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/3.29.2/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/LLVM/bin/clang++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/3.29.2/CompilerIdCXX/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/CMakeScratch/TryCompile-ig0gnk"
+      binary: "C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/CMakeScratch/TryCompile-ig0gnk"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/CMakeScratch/TryCompile-ig0gnk'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/AHMADZ~1/AppData/Local/MICROS~1/WinGet/Links/make.exe -f Makefile cmTC_563a7/fast
+        C:/Users/AHMADZ~1/AppData/Local/MICROS~1/WinGet/Links/make.exe  -f CMakeFiles/cmTC_563a7.dir/build.make CMakeFiles/cmTC_563a7.dir/build
+        make[1]: Entering directory 'C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/CMakeScratch/TryCompile-ig0gnk'
+        Building C object CMakeFiles/cmTC_563a7.dir/CMakeCCompilerABI.c.obj
+        "C:/Program Files/LLVM/bin/clang.exe"   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_563a7.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles/cmTC_563a7.dir/CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_563a7.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCCompilerABI.c"
+        Linking C executable cmTC_563a7.exe
+        "C:/Program Files/LLVM/bin/clang.exe" -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd  -v -Xlinker /subsystem:console -fuse-ld=lld-link @CMakeFiles/cmTC_563a7.dir/objects1.rsp -o cmTC_563a7.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_563a7.lib -Xlinker /pdb:"C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/CMakeScratch/TryCompile-ig0gnk/cmTC_563a7.pdb" -Xlinker /version:0.0 
+        clang version 18.1.4
+        Target: x86_64-pc-windows-msvc
+        Thread model: posix
+        InstalledDir: C:\\Program Files\\LLVM\\bin
+         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_563a7.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.40.33807\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.40.33807\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\18\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_563a7.dir/CMakeCCompilerABI.c.obj /MANIFEST:EMBED /implib:cmTC_563a7.lib "/pdb:C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/CMakeScratch/TryCompile-ig0gnk/cmTC_563a7.pdb" /version:0.0
+        make[1]: Leaving directory 'C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/CMakeScratch/TryCompile-ig0gnk'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/LLVM/bin/lld-link
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/LLVM/bin/lld-link" "-v"
+      lld-link: warning: ignoring unknown argument '-v'
+      lld-link: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/LLVM/bin/lld-link" "-V"
+      lld-link: warning: ignoring unknown argument '-V'
+      lld-link: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/LLVM/bin/lld-link" "--version"
+      LLD 18.1.4
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/CMakeScratch/TryCompile-08y7xs"
+      binary: "C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/CMakeScratch/TryCompile-08y7xs"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/CMakeScratch/TryCompile-08y7xs'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/AHMADZ~1/AppData/Local/MICROS~1/WinGet/Links/make.exe -f Makefile cmTC_40d3c/fast
+        C:/Users/AHMADZ~1/AppData/Local/MICROS~1/WinGet/Links/make.exe  -f CMakeFiles/cmTC_40d3c.dir/build.make CMakeFiles/cmTC_40d3c.dir/build
+        make[1]: Entering directory 'C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/CMakeScratch/TryCompile-08y7xs'
+        Building CXX object CMakeFiles/cmTC_40d3c.dir/CMakeCXXCompilerABI.cpp.obj
+        "C:/Program Files/LLVM/bin/clang++.exe"   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_40d3c.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles/cmTC_40d3c.dir/CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_40d3c.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
+        Linking CXX executable cmTC_40d3c.exe
+        "C:/Program Files/LLVM/bin/clang++.exe" -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd  -v -Xlinker /subsystem:console -fuse-ld=lld-link @CMakeFiles/cmTC_40d3c.dir/objects1.rsp -o cmTC_40d3c.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_40d3c.lib -Xlinker /pdb:"C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/CMakeScratch/TryCompile-08y7xs/cmTC_40d3c.pdb" -Xlinker /version:0.0 
+        clang version 18.1.4
+        Target: x86_64-pc-windows-msvc
+        Thread model: posix
+        InstalledDir: C:\\Program Files\\LLVM\\bin
+         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_40d3c.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.40.33807\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.40.33807\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\18\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_40d3c.dir/CMakeCXXCompilerABI.cpp.obj /MANIFEST:EMBED /implib:cmTC_40d3c.lib "/pdb:C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/CMakeScratch/TryCompile-08y7xs/cmTC_40d3c.pdb" /version:0.0
+        make[1]: Leaving directory 'C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/CMakeScratch/TryCompile-08y7xs'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/LLVM/bin/lld-link
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/LLVM/bin/lld-link" "-v"
+      lld-link: warning: ignoring unknown argument '-v'
+      lld-link: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/LLVM/bin/lld-link" "-V"
+      lld-link: warning: ignoring unknown argument '-V'
+      lld-link: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/LLVM/bin/lld-link" "--version"
+      LLD 18.1.4
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:84 (_record_compiler_features)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake:121 (_record_compiler_features_cxx)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/CMakeScratch/TryCompile-rbtwl2"
+      binary: "C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/CMakeScratch/TryCompile-rbtwl2"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/CMakeScratch/TryCompile-rbtwl2'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/AHMADZ~1/AppData/Local/MICROS~1/WinGet/Links/make.exe -f Makefile cmTC_efa29/fast
+        C:/Users/AHMADZ~1/AppData/Local/MICROS~1/WinGet/Links/make.exe  -f CMakeFiles/cmTC_efa29.dir/build.make CMakeFiles/cmTC_efa29.dir/build
+        make[1]: Entering directory 'C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/CMakeScratch/TryCompile-rbtwl2'
+        Building CXX object CMakeFiles/cmTC_efa29.dir/feature_tests.cxx.obj
+        "C:/Program Files/LLVM/bin/clang++.exe"   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_efa29.dir/feature_tests.cxx.obj -MF CMakeFiles/cmTC_efa29.dir/feature_tests.cxx.obj.d -o CMakeFiles/cmTC_efa29.dir/feature_tests.cxx.obj -c "C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/CMakeScratch/TryCompile-rbtwl2/feature_tests.cxx"
+        Linking CXX executable cmTC_efa29.exe
+        "C:/Program Files/LLVM/bin/clang++.exe" -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link @CMakeFiles/cmTC_efa29.dir/objects1.rsp -o cmTC_efa29.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_efa29.lib -Xlinker /pdb:"C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/CMakeScratch/TryCompile-rbtwl2/cmTC_efa29.pdb" -Xlinker /version:0.0  @CMakeFiles/cmTC_efa29.dir/linkLibs.rsp
+        make[1]: Leaving directory 'C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/CMakeScratch/TryCompile-rbtwl2'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:84 (_record_compiler_features)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake:129 (_record_compiler_features_cxx)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/CMakeScratch/TryCompile-zm9ojp"
+      binary: "C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/CMakeScratch/TryCompile-zm9ojp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/CMakeScratch/TryCompile-zm9ojp'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/AHMADZ~1/AppData/Local/MICROS~1/WinGet/Links/make.exe -f Makefile cmTC_9fd32/fast
+        C:/Users/AHMADZ~1/AppData/Local/MICROS~1/WinGet/Links/make.exe  -f CMakeFiles/cmTC_9fd32.dir/build.make CMakeFiles/cmTC_9fd32.dir/build
+        make[1]: Entering directory 'C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/CMakeScratch/TryCompile-zm9ojp'
+        Building CXX object CMakeFiles/cmTC_9fd32.dir/feature_tests.cxx.obj
+        "C:/Program Files/LLVM/bin/clang++.exe"   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_9fd32.dir/feature_tests.cxx.obj -MF CMakeFiles/cmTC_9fd32.dir/feature_tests.cxx.obj.d -o CMakeFiles/cmTC_9fd32.dir/feature_tests.cxx.obj -c "C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/CMakeScratch/TryCompile-zm9ojp/feature_tests.cxx"
+        Linking CXX executable cmTC_9fd32.exe
+        "C:/Program Files/LLVM/bin/clang++.exe" -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link @CMakeFiles/cmTC_9fd32.dir/objects1.rsp -o cmTC_9fd32.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_9fd32.lib -Xlinker /pdb:"C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/CMakeScratch/TryCompile-zm9ojp/cmTC_9fd32.pdb" -Xlinker /version:0.0  @CMakeFiles/cmTC_9fd32.dir/linkLibs.rsp
+        make[1]: Leaving directory 'C:/Users/Ahmad Zani Syechkar/source/Workspace Source Code/Metaprogramming - Learning/01/build/CMakeFiles/CMakeScratch/TryCompile-zm9ojp'
+        
+      exitCode: 0
+...
